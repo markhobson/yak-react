@@ -9,11 +9,14 @@ var AppComponent = React.createClass({
 				{id: 1, name: "A"},
 				{id: 2, name: "B"},
 				{id: 3, name: "C"}
-			]
+			],
+			nextId: 4
 		};
 	},
 	handleYakAdd: function(yak) {
-		// TODO: add yak
+		var state = this.state;
+		state.yaks.push({id: state.nextId++, name: yak.name});
+		this.setState(state);
 	},
 	render: function() {
 		return (
