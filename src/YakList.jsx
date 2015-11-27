@@ -3,7 +3,14 @@ var React = require("react");
 var YakList = React.createClass({
 	render: function() {
 		return (
-			<h2>Yaks</h2>
+			<div>
+				<h2>Yaks</h2>
+				<ul>
+					<li>A</li>
+					<li>B</li>
+					<li>C</li>
+				</ul>
+			</div>
 		);
 	}
 });
