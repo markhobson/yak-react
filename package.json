@@ -4,7 +4,8 @@
   "description": "Shaving yaks using React.",
   "main": "index.js",
   "scripts": {
-    "build": "browserify src/app.jsx -o build/app.js"
+    "build": "browserify src/app.jsx -o build/app.js",
+    "start": "watchify src/app.jsx -o build/app.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
     "browserify": "^12.0.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
-    "reactify": "^1.1.1"
+    "reactify": "^1.1.1",
+    "watchify": "^3.6.1"
   },
   "browserify": {
     "transform": [
