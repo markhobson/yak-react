@@ -1,6 +1,6 @@
 var React = require("react");
 
-var Yak = React.createClass({
+var YakItem = React.createClass({
 	render: function() {
 		return (
 			<span>{this.props.yak.name}</span>
@@ -8,4 +8,4 @@ var Yak = React.createClass({
 	}
 });
 
-module.exports = Yak;
+module.exports = YakItem;
