@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/markhobson/yak-react/issues"
   },
-  "homepage": "https://github.com/markhobson/yak-react#readme"
+  "homepage": "https://github.com/markhobson/yak-react#readme",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
 }

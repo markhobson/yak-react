@@ -6,4 +6,5 @@ Shaving yaks using React.
 Getting started
 ---------------
 
-Open [index.html](index.html) in a browser.
+1. `npm install`
+2. Open [index.html](index.html) in a browser.
