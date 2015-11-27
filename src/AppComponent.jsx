@@ -1,4 +1,5 @@
 var React = require("react");
+var AddYakForm = require("./AddYakForm");
 var YakList = require("./YakList");
 
 var AppComponent = React.createClass({
@@ -11,6 +12,7 @@ var AppComponent = React.createClass({
 		return (
 			<div>
 				<h1>Yak Shaving</h1>
+				<AddYakForm/>
 				<YakList yaks={yaks}/>
 			</div>
 		);
