@@ -5,12 +5,8 @@ var YakList = require("./YakList");
 var AppComponent = React.createClass({
 	getInitialState: function() {
 		return {
-			yaks: [
-				{id: 1, name: "A"},
-				{id: 2, name: "B"},
-				{id: 3, name: "C"}
-			],
-			nextId: 4
+			yaks: [],
+			nextId: 1
 		};
 	},
 	handleYakAdd: function(yak) {
