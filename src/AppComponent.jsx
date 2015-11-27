@@ -19,7 +19,7 @@ var AppComponent = React.createClass({
 			<div>
 				<h1>Yak Shaving</h1>
 				<AddYakForm onAdd={this.handleYakAdd}/>
-				<YakList yaks={this.state.yaks}/>
+				{this.state.yaks.length ? <YakList yaks={this.state.yaks}/> : ""}
 			</div>
 		);
 	}
