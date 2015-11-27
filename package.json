@@ -4,7 +4,7 @@
   "description": "Shaving yaks using React.",
   "main": "index.js",
   "scripts": {
-    "browserify": "browserify src/app.js -o build/app.js"
+    "browserify": "browserify -t [ babelify --presets react ] src/app.js -o build/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/markhobson/yak-react#readme",
   "devDependencies": {
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "browserify": "^12.0.1"
+    "react-dom": "^0.14.3"
   }
 }
