@@ -10,4 +10,4 @@ Getting started
 2. `npm run watch`
 3. In another terminal window: `npm start`
 
-Your browser should now be yak enabled at http://localhost:8080/.
+Your browser should now be yak enabled at http://127.0.0.1:8080/.
