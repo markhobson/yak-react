@@ -4,8 +4,8 @@
   "description": "Shaving yaks using React.",
   "main": "index.js",
   "scripts": {
-    "build": "browserify src/app.jsx -o build/app.js",
-    "watch": "watchify src/app.jsx -o build/app.js",
+    "build": "browserify src/app.jsx --extension jsx -o build/app.js",
+    "watch": "watchify src/app.jsx --extension jsx -o build/app.js",
     "start": "live-server"
   },
   "repository": {
