@@ -4,7 +4,7 @@
   "description": "Shaving yaks using React.",
   "main": "index.js",
   "scripts": {
-    "browserify": "browserify -t [ babelify --presets react ] src/app.js -o build/app.js"
+    "browserify": "browserify -t [ babelify --presets react ] src/app.jsx -o build/app.js"
   },
   "repository": {
     "type": "git",
