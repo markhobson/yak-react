@@ -9,7 +9,7 @@ var AddYakForm = React.createClass({
 	},
 	handleSubmit: function(event) {
 		event.preventDefault();
-		// TODO: add yak
+		this.props.onAdd({name: this.state.name});
 	},
 	render: function() {
 		return (

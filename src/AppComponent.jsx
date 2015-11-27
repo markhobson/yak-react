@@ -3,6 +3,9 @@ var AddYakForm = require("./AddYakForm");
 var YakList = require("./YakList");
 
 var AppComponent = React.createClass({
+	handleYakAdd: function(yak) {
+		// TODO: add yak
+	},
 	render: function() {
 		var yaks = [
 			{id: 1, name: "A"},
@@ -12,7 +15,7 @@ var AppComponent = React.createClass({
 		return (
 			<div>
 				<h1>Yak Shaving</h1>
-				<AddYakForm/>
+				<AddYakForm onAdd={this.handleYakAdd}/>
 				<YakList yaks={yaks}/>
 			</div>
 		);
