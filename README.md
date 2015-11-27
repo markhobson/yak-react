@@ -1,7 +1,7 @@
 yak-react
 =========
 
-Shaving yaks using React.
+Shaving yaks using [React](https://facebook.github.io/react/).
 
 Getting started
 ---------------
