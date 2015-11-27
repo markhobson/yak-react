@@ -1,10 +1,13 @@
 var React = require("react");
+var Yak = require("./Yak");
 
 var YakList = React.createClass({
 	render: function() {
 		var yakNodes = this.props.yaks.map(function(yak) {
 			return (
-				<li key={yak.id}>{yak.name}</li>
+				<li key={yak.id}>
+					<Yak yak={yak}/>
+				</li>
 			);
 		});
 		return (
